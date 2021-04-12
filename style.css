@@ -5,16 +5,18 @@ body{
 #numberGrid{
   display: flex;
   flex-wrap: wrap;
+  grid-gap: 5px;
   margin: 0px;
   padding: 0px
   width: 100vw;
 }
 
 .numberGridItem{
-width: 5vw;
-height: 5vw;
-background-color: #eee;
-display: grid;
-align-items: center;
-justify-content: center;
+  width: 5vw;
+  height: 5vw;
+  background-color: #eee;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
 }
